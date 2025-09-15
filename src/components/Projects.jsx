@@ -44,6 +44,18 @@ function Projects() {
           <a href="https://photo-recipe.netlify.app" target="_blank" rel="noopener noreferrer" className="project-btn">View App</a>
         </motion.div>
 
+        <motion.div 
+          className="project-card"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          whileHover={{ scale: 1.05 }}
+        >
+          <h3>HeroRun Game</h3>
+          <p>Challenge your skills in this fun game!</p>
+          <a href="/demos/HeroRunGame-1.0.0-win.jar" download className="project-btn">Download Desktop App</a>
+        </motion.div>
+
       </div>
     </section>
   );
