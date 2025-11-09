@@ -15,9 +15,9 @@ function Projects() {
           transition={{ duration: 0.8 }}
           whileHover={{ scale: 1.05 }}
         >
-          <h3>Tomorrow Shift</h3>
-          <p>Shift management app for work teams.</p>
-          <a href="https://tomorrow-shift.netlify.app" target="_blank" rel="noopener noreferrer" className="project-btn">View App</a>
+          <h3>Favorite Sites</h3>
+          <p>Manage, Showcase, and Instantly Upload Your Favorite Web Projects.</p>
+          <a href="https://my-favorite-sites.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-btn">View App</a>
         </motion.div>
 
         <motion.div 
@@ -42,6 +42,18 @@ function Projects() {
           <h3>Photo Recipe</h3>
           <p>Find recipes using only food photos.</p>
           <a href="https://photo-recipe.netlify.app" target="_blank" rel="noopener noreferrer" className="project-btn">View App</a>
+        </motion.div>
+
+        <motion.div 
+          className="project-card"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          whileHover={{ scale: 1.05 }}
+        >
+          <h3>Tomorrow Shift</h3>
+          <p>Shift management app for work teams.</p>
+          <a href="https://tomorrow-shift.netlify.app" target="_blank" rel="noopener noreferrer" className="project-btn">View App</a>
         </motion.div>
 
         <motion.div 
