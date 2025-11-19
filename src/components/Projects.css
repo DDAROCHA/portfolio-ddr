@@ -49,3 +49,9 @@
 .project-btn:hover {
   background: #6a11cb;
 }
+
+.project-subtext {
+  font-size: 12px !important;
+  color: #ccc;       /* opcional */
+  margin-top: -5px;  /* si querés ajustar el espacio */
+}
